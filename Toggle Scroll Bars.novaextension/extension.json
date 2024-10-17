@@ -12,12 +12,12 @@
 	"commands": {
 		"editor": [
 			{
-				"title": "Always Show Scrollbars",
-				"command": "com.gingerbeardman.editorconfig.indent.reapplyIndentCurrentFile"
+				"title": "Always Show Scroll Bars (restart required)",
+				"command": "com.gingerbeardman.scrollbars.AlwaysOn"
 			},
 			{
-				"title": "Use System Default Scrollbars Visibility",
-				"command": "com.gingerbeardman.editorconfig.indent.reapplyIndent"
+				"title": "Use System Default Scrollbars Visibility (restart required)",
+				"command": "com.gingerbeardman.scrollbars.SystemDefault"
 			}
 		]
 	},
@@ -28,7 +28,7 @@
     "config": [
         {
             "key": "com.gingerbeardman.scrollbars.enableAutoRun",
-            "title": "Always Show Scrollbars (restart required)",
+            "title": "Always Show Scroll Bars (restart required)",
             "type": "boolean",
             "default": false
         }

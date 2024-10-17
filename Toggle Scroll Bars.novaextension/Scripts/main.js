@@ -2,8 +2,8 @@ let disposable;
 
 exports.activate = function() {
 	console.log("Toggle Scroll Bars extension activated");
-	nova.commands.register("com.gingerbeardman.editorconfig.indent.reapplyIndent", reapplyIndent);
-	nova.commands.register("com.gingerbeardman.editorconfig.indent.reapplyIndentCurrentFile", reapplyIndentCurrentFile);
+	nova.commands.register("com.gingerbeardman.scrollbars.AlwaysOn", scrollbarsAlwaysOn);
+	nova.commands.register("com.gingerbeardman.scrollbars.SystemDefault", scrollbarsSystemDefault);
 
     // Register the command
     nova.commands.register("run-terminal-command", runCommand);
@@ -11,9 +11,9 @@ exports.activate = function() {
     // Set up a listener for configuration changes
     disposable = nova.config.onDidChange("com.gingerbeardman.scrollbars.enableAutoRun", (newValue, oldValue) => {
         if (newValue === true) {
-            runCommand("defaults write com.panic.Nova AppleShowScrollBars Always");
+            scrollbarsAlwaysOn();
         } else {
-            runCommand("defaults delete com.panic.Nova AppleShowScrollBars");
+            scrollbarsSystemDefault();
         }
     });
 }
@@ -22,6 +22,14 @@ exports.deactivate = function() {
     if (disposable) {
         disposable.dispose();
     }
+}
+
+function scrollbarsAlwaysOn() {
+    runCommand("defaults write com.panic.Nova AppleShowScrollBars Always");
+}
+
+function scrollbarsSystemDefault() {
+    runCommand("defaults delete com.panic.Nova AppleShowScrollBars");
 }
 
 function setDefaultConfigValue() {
