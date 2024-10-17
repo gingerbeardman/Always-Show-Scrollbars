@@ -2,7 +2,7 @@
 
 ## Usage
 
-To configure this preference, open **Extensions → Extension Library...** then select Toggle Scroll Bars' **Settings** tab. You can then tick **Always Show Scrollbars** checkbox.
+To configure this preference, open **Extensions → Extension Library...** then select Toggle Scroll Bars' **Settings** tab. You can then tick **Always Show Scroll Bars** checkbox.
 
 > Important: you will need to restart Nova to see the changes.
 
