@@ -10,7 +10,9 @@ Recommended download from [Nova Extensions](https://extensions.panic.com/extensi
 
 ## Screenshots
 
-![](https://github.com/gingerbeardman/Always-Show-Scrollbars/blob/main/scrollbars-off-minimap-off.png) ![](https://github.com/gingerbeardman/Always-Show-Scrollbars/blob/main/scrollbars-off-minimap-on.png) ![](https://github.com/gingerbeardman/Always-Show-Scrollbars/blob/main/scrollbars-on-minimap-off.png) ![](https://github.com/gingerbeardman/Always-Show-Scrollbars/blob/main/scrollbars-on-minimap-on.png)
+![off-off](https://raw.githubusercontent.com/gingerbeardman/Always-Show-Scrollbars/refs/heads/main/scrollbars-off-minimap-off.png) ![off-on](https://raw.githubusercontent.com/gingerbeardman/Always-Show-Scrollbars/refs/heads/main/scrollbars-off-minimap-on.png)
+
+![on-off](https://raw.githubusercontent.com/gingerbeardman/Always-Show-Scrollbars/refs/heads/main/scrollbars-on-minimap-off.png) ![on-on](https://raw.githubusercontent.com/gingerbeardman/Always-Show-Scrollbars/refs/heads/main/scrollbars-on-minimap-on.png)
 
 # Licence
 
