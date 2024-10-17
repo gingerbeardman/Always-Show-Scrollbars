@@ -2,7 +2,7 @@
     "identifier": "com.gingerbeardman.scrollbars",
     "name": "Toggle Scrollbars",
 	"organization": "gingerbeardman",
-    "description": "Always show scrollbars and thus change markers",
+    "description": "Always show scrollbars (and therefore change markers for the whole document)",
 	"version": "1.0.0",
 	"repository": "https://github.com/gingerbeardman/Toggle-Scrollbars",
 	"bugs": "https://github.com/gingerbeardman/Toggle-Scrollbars/issues",
