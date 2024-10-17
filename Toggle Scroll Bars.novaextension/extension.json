@@ -1,6 +1,6 @@
 {
     "identifier": "com.gingerbeardman.scrollbars",
-    "name": "Toggle Scrollbars",
+    "name": "Toggle Scroll Bars",
 	"organization": "gingerbeardman",
     "description": "Always show scrollbars (and therefore change markers for the whole document)",
 	"version": "1.0.0",
@@ -9,6 +9,18 @@
 	"homepage": "https://www.gingerbeardman.com",
 	"funding": "https://ko-fi.com/gingerbeardman",
     "categories": ["commands"],
+	"commands": {
+		"editor": [
+			{
+				"title": "Always Show Scrollbars",
+				"command": "com.gingerbeardman.editorconfig.indent.reapplyIndentCurrentFile"
+			},
+			{
+				"title": "Use System Default Scrollbars Visibility",
+				"command": "com.gingerbeardman.editorconfig.indent.reapplyIndent"
+			}
+		]
+	},
     "main": "main.js",
     "entitlements": {
         "process": true

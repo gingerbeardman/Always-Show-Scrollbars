@@ -1,6 +1,10 @@
 let disposable;
 
 exports.activate = function() {
+	console.log("Toggle Scroll Bars extension activated");
+	nova.commands.register("com.gingerbeardman.editorconfig.indent.reapplyIndent", reapplyIndent);
+	nova.commands.register("com.gingerbeardman.editorconfig.indent.reapplyIndentCurrentFile", reapplyIndentCurrentFile);
+
     // Register the command
     nova.commands.register("run-terminal-command", runCommand);
 

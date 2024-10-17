@@ -1,19 +1,13 @@
-# Toggle Scroll Bars
+**Toggle Scroll Bars** allows you to see the scrollbar at all times. This is useful because the scrollbar also contains source control change markers. With scrollbars always visible you can more easily locate changes across the entire length of your document.
 
-Toggle Scroll Bars is an extension for the [Nova editor](https://nova.app).
+## Usage
 
-Adds a simple checkbox toggle so that scrollbars are always shown (and therefore change markers for the whole document).
+To configure this preference, open **Extensions → Extension Library...** then select Toggle Scroll Bars' **Settings** tab. You can then tick **Always Show Scrollbars** checkbox.
 
-See the internal [README](/Toggle%20Scrollbars.novaextension/README.md) for more info.
-
-Recommended download from [Nova Extensions](https://extensions.panic.com/extensions/com.gingerbeardman/com.gingerbeardman.scrollbars/) website.
+> Important: you will need to restart Nova to see the changes.
 
 ## Screenshots
 
 ![on-off](https://raw.githubusercontent.com/gingerbeardman/Toggle-Scroll-Bars/refs/heads/main/scrollbars-on-minimap-off.png) ![off-off](https://raw.githubusercontent.com/gingerbeardman/Toggle-Scroll-Bars/refs/heads/main/scrollbars-off-minimap-off.png) 
 
 ![on-on](https://raw.githubusercontent.com/gingerbeardman/Toggle-Scroll-Bars/refs/heads/main/scrollbars-on-minimap-on.png) ![off-on](https://raw.githubusercontent.com/gingerbeardman/Toggle-Scroll-Bars/refs/heads/main/scrollbars-off-minimap-on.png)
-
-# Licence
-
-[MIT](/LICENSE)
