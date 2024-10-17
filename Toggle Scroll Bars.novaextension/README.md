@@ -1,4 +1,4 @@
-**Toggle Scroll Bars** allows you to see the scrollbar at all times. This is useful because the scrollbar also contains source control change markers. With scrollbars always visible you can more easily locate changes across the entire length of your document.
+**Toggle Scroll Bars** allows you to see the scroll bar at all times. This is useful because the scroll bar also contains source control change markers. With scroll bars always visible you can more easily locate changes across the entire length of your document.
 
 It does this by running a terminal command to set a user default:
 
