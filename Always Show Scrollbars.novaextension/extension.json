@@ -1,9 +1,13 @@
 {
-    "identifier": "com.gingerbeardman.ToggleScrollbars",
+    "identifier": "com.gingerbeardman.scrollbars",
     "name": "Always Show Scrollbars",
-    "organization": "Matt Sephton",
+	"organization": "gingerbeardman",
     "description": "Always show scrollbars and thus change markers (for people who don't use the Minimap)",
-    "version": "1.0",
+	"version": "1.0.0",
+	"repository": "https://github.com/gingerbeardman/Always-Show-Scrollbars",
+	"bugs": "https://github.com/gingerbeardman/Always-Show-Scrollbars/issues",
+	"homepage": "https://www.gingerbeardman.com",
+	"funding": "https://ko-fi.com/gingerbeardman",
     "categories": ["commands"],
     "main": "main.js",
     "entitlements": {
@@ -11,8 +15,8 @@
     },
     "config": [
         {
-            "key": "com.gingerbeardman.ToggleScrollbars.enableAutoRun",
-            "title": "Always Show Scrollbars",
+            "key": "com.gingerbeardman.scrollbars.enableAutoRun",
+            "title": "Always Show Scrollbars (restart required)",
             "type": "boolean",
             "default": false
         }

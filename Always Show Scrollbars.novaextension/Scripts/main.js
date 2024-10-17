@@ -5,7 +5,7 @@ exports.activate = function() {
     nova.commands.register("run-terminal-command", runCommand);
 
     // Set up a listener for configuration changes
-    disposable = nova.config.onDidChange("com.gingerbeardman.ToggleScrollbars.enableAutoRun", (newValue, oldValue) => {
+    disposable = nova.config.onDidChange("com.gingerbeardman.scrollbars.enableAutoRun", (newValue, oldValue) => {
         if (newValue === true) {
             runCommand("defaults write com.panic.Nova AppleShowScrollBars Always");
         } else {
@@ -36,8 +36,8 @@ function setDefaultConfigValue() {
     process.onDidExit(function(status) {
         if (status === 0 && output) {
             const defaultValue = output === "true";
-            if (!nova.config.get("com.gingerbeardman.ToggleScrollbars.enableAutoRun")) {
-                nova.config.set("com.gingerbeardman.ToggleScrollbars.enableAutoRun", defaultValue);
+            if (!nova.config.get("com.gingerbeardman.scrollbars.enableAutoRun")) {
+                nova.config.set("com.gingerbeardman.scrollbars.enableAutoRun", defaultValue);
             }
         } else {
             console.error("Failed to get default value from command");

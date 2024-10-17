@@ -1,16 +1,16 @@
-# YAML Tag Picker
+# Always Show Scrollbars
 
-YAML Tag Picker is an extension for the [Nova editor](https://nova.app).
+Always Show Scrollbars is an extension for the [Nova editor](https://nova.app).
 
-Easily select tags for the YAML front matter in your blog posts. It scans your existing posts for tags and presents them in a Choice Palette, making it easy to maintain consistent tagging across your blog.
+Adds a simple checkbox toggle so that scrollbars can be always shown.
 
-See the internal [README](/YAML%20Tag%20Picker.novaextension/README.md) for more info.
+See the internal [README](/Always%20Show%20Scrollbars.novaextension/README.md) for more info.
 
-Recommended download from [Nova Extensions](https://extensions.panic.com/extensions/com.gingerbeardman/com.gingerbeardman.YAMLTagPicker/) website.
+Recommended download from [Nova Extensions](https://extensions.panic.com/extensions/com.gingerbeardman/com.gingerbeardman.scrollbars/) website.
 
-## Screenshot
+## Screenshots
 
-![yaml-tag-picker](https://github.com/user-attachments/assets/66409f92-63b6-4fb9-9a26-4840cb5e3e9c)
+![](https://github.com/gingerbeardman/Always-Show-Scrollbars/blob/main/scrollbars-off-minimap-off.png) ![](https://github.com/gingerbeardman/Always-Show-Scrollbars/blob/main/scrollbars-off-minimap-on.png) ![](https://github.com/gingerbeardman/Always-Show-Scrollbars/blob/main/scrollbars-on-minimap-off.png) ![](https://github.com/gingerbeardman/Always-Show-Scrollbars/blob/main/scrollbars-on-minimap-on.png)
 
 # Licence
 
