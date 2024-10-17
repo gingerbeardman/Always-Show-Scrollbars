@@ -2,7 +2,7 @@
 
 Toggle Scrollbars is an extension for the [Nova editor](https://nova.app).
 
-Adds a simple checkbox toggle so that scrollbars can be always shown (and therefore change markers for the whole document).
+Adds a simple checkbox toggle so that scrollbars are always shown (and therefore change markers for the whole document).
 
 See the internal [README](/Toggle%20Scrollbars.novaextension/README.md) for more info.
 
