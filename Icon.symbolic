@@ -1,0 +1,33 @@
+{
+  "version" : 1,
+  "topColor" : {
+    "blue" : 0.2532523819670128,
+    "green" : 0.8841817408785442,
+    "alpha" : 1,
+    "red" : 0.9728776813
+  },
+  "iconScale" : 0.6779560368342596,
+  "shadowOpacity" : 0,
+  "iconOffset" : [
+    0,
+    0
+  ],
+  "bottomColor" : {
+    "alpha" : 1,
+    "red" : 0.9921569228,
+    "green" : 0.30031112390575027,
+    "blue" : 0.5237530982940695
+  },
+  "id" : "24670896-9CE6-40DD-86CB-111B3E0DEB8D",
+  "shadowHeight" : 0.3,
+  "symbol" : {
+    "name" : "scroll.fill",
+    "family" : "sf-symbols"
+  },
+  "symbolColor" : {
+    "red" : 0.9999999403953552,
+    "green" : 0.9999999403953552,
+    "alpha" : 1,
+    "blue" : 0.9999999403953552
+  }
+}
