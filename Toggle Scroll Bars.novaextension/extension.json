@@ -1,14 +1,14 @@
 {
-    "identifier": "com.gingerbeardman.scrollbars",
-    "name": "Toggle Scroll Bars",
+	"identifier": "com.gingerbeardman.scrollbars",
+	"name": "Toggle Scroll Bars",
 	"organization": "gingerbeardman",
-    "description": "Always show scrollbars (and thus the change markers for the whole document)",
-	"version": "1.0.3",
+	"description": "Always show scrollbars (and thus the change markers for the whole document)",
+	"version": "1.0.4",
 	"repository": "https://github.com/gingerbeardman/Toggle-Scrollbars",
 	"bugs": "https://github.com/gingerbeardman/Toggle-Scrollbars/issues",
 	"homepage": "https://www.gingerbeardman.com",
 	"funding": "https://ko-fi.com/gingerbeardman",
-    "categories": ["commands"],
+	"categories": ["commands"],
 	"commands": {
 		"editor": [
 			{
@@ -21,16 +21,17 @@
 			}
 		]
 	},
-    "main": "main.js",
-    "entitlements": {
-        "process": true
-    },
-    "config": [
-        {
-            "key": "com.gingerbeardman.scrollbars.enableAutoRun",
-            "title": "Always Show Scroll Bars (restart required)",
-            "type": "boolean",
-            "default": false
-        }
-    ]
+	"main": "main.js",
+	"entitlements": {
+		"process": true
+	},
+	"config": [
+		{
+			"key": "com.gingerbeardman.scrollbars.enableAutoRun",
+			"title": "Always Show Scroll Bars",
+			"description": "Important: you will need to restart Nova to see the change",
+			"type": "boolean",
+			"default": false
+		}
+	]
 }

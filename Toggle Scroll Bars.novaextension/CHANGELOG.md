@@ -1,6 +1,6 @@
 ## Version 1.0.x
 
-Changed README
+Changed documentation
 
 ## Version 1.0.0
 
