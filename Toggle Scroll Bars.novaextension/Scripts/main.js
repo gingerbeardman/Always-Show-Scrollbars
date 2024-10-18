@@ -5,9 +5,6 @@ exports.activate = function() {
 	nova.commands.register("com.gingerbeardman.scrollbars.AlwaysOn", scrollbarsAlwaysOn);
 	nova.commands.register("com.gingerbeardman.scrollbars.SystemDefault", scrollbarsSystemDefault);
 
-    // Register the command
-    nova.commands.register("run-terminal-command", runCommand);
-
     // Set up a listener for configuration changes
     disposable = nova.config.onDidChange("com.gingerbeardman.scrollbars.enableAutoRun", (newValue, oldValue) => {
         if (newValue === true) {
